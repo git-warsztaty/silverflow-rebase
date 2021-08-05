@@ -6,7 +6,8 @@ namespace silverflow_rebase
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var person = new Person(name: "Alice", age: 18);
+            Console.WriteLine($"Hello {person.Name}");
         }
     }
 }
