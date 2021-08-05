@@ -12,11 +12,11 @@ namespace silverflow_rebase
 
         internal void PrepareAllCarsForRenting() => _cars.ForEach(c => c.FillFuel(50));
 
-        internal void RequestCarForCustomer(Person person)
+        internal void RequestCarForCustomer(Person p)
         {
-            Console.WriteLine($"Hello {person.Name}");
+            Console.WriteLine($"Hello {p.Name}");
 
-            if(_cars.Any() && person.Age >= 21)
+            if(_cars.Any() && p.Age >= 21)
                 Console.WriteLine("We have car which will suit you fine");
                 
             else
