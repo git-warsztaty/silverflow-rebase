@@ -6,7 +6,7 @@ namespace silverflow_rebase
     {
         static void Main(string[] args)
         {
-            var alice = new Person(name: "Alice", age: 18);
+            var alice = new Person(name: "Alice", age: 17);
             var bob = new Person(name: "Bob", age: 34);
             var car = new Car();
             var carRentalService = new CarRentalService();

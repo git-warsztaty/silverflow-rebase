@@ -7,7 +7,7 @@ namespace silverflow_rebase
     internal class CarRentalService
     {
         private List<Car> _cars = new List<Car>();
-        private const int AGE_REQUIRED_TO_RENT_A_CAR = 21;
+        private const int AGE_REQUIRED_TO_RENT_A_CAR = 18;
 
         internal void AddCarForRenting(Car car) => _cars.Add(car);
 
