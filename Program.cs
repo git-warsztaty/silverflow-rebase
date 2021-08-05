@@ -8,8 +8,11 @@ namespace silverflow_rebase
         {
             var person = new Person(name: "Alice", age: 18);
             Console.WriteLine($"Hello {person.Name}");
-            
+
             var car = new Car();
+            var carRentalService = new CarRentalService();
+
+            carRentalService.AddCarForRenting(car);
         }
     }
 }
