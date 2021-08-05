@@ -16,7 +16,7 @@ namespace silverflow_rebase
         {
             Console.WriteLine($"Hello {person.Name}");
 
-            if(_cars.Any() && person.Age >= 21)
+            if(_cars.Any() && person.Age >= 21 && _cars.First().IsReadyToRide)
                 Console.WriteLine("We have car which will suit you fine");
                 
             else

@@ -11,5 +11,7 @@ namespace silverflow_rebase
         }
 
         internal void FillFuel(int fuel) => _fuel = fuel;
+
+        internal bool IsReadyToRide => _fuel > 0;
     }
 }
